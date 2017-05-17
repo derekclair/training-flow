@@ -1,0 +1,12 @@
+{
+  "passPerPreset": true,
+  "plugins": [
+    "transform-flow-strip-types"
+  ],
+  "presets": [
+    "env",
+    "es2015",
+    "stage-0"
+  ],
+  "retainLines": true
+}

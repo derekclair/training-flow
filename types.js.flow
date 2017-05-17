@@ -1,0 +1,18 @@
+/* @flow */
+
+type State = 'Utah' | 'California' | 'Nevada';
+
+type Address = {
+  house: number,
+  street: string,
+  zip: string,
+  city: string,
+  state: State,
+}
+
+export type User = {
+  id: number,
+  firstName: string,
+  lastName: string,
+  address: Address,
+};
